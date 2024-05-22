@@ -1,0 +1,208 @@
+.box{
+    
+    background-color: rgb(253, 92, 113);
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(0, 0, 0.1);
+    padding: 20px;
+    width: 1310px;
+    text-align: center;
+    height:610px;
+    background-image: url('image/sakura.jpg');
+    background-repeat: no-repeat;
+    background-size: 1310px 610px;
+}
+
+
+
+.title {
+    position: fixed;
+    background-color: rgb(247, 96, 116);
+    height:100px;
+    width: 1210px;
+    border-style: outset;
+    top:60px ;
+    left:70px;
+    font-size: 345%;
+    color: rgb(255, 247, 241);
+    box-shadow: 0 0 30px rgba(0, 0, 0.1);
+    font-style: italic;
+    text-shadow: 2px 2px black;
+}
+
+.menu-label{
+    color: black;
+    background-color:rgb(247, 96, 116);
+    font-weight: 600;
+    font-style: inherit;
+    
+}
+
+.menu-list{
+    color: black;
+    background-color:rgb(247, 96, 116);
+    font-weight: 700;
+    font-style: inherit;
+    width: 180px;
+   
+   
+}
+
+.column1{
+    position: fixed;
+    color: black;
+    background-color:rgb(247, 96, 116);
+    width: 250px;
+    top:190px;
+    height: 400px;
+    border-style: outset;
+    left: 70px;
+    box-shadow: 0 0 30px rgba(0, 0, 0.1);
+}
+.column2{
+    position:fixed;
+    top:190px;
+    left:335px;
+    color: black;
+    background-color:rgb(247, 96, 116);
+    width: 944px;
+    height: 400px;
+    border-style: outset;
+    box-shadow: 0 0 30px rgba(0, 0, 0.1);
+   
+}
+.subtitle{   
+    font-weight: 900;
+    font-style: inherit;
+    font-size: xx-large;
+    color:rgb(255, 247, 241);
+    left: 20px;
+    font-style: italic;
+    text-shadow: 2px 2px black;
+   
+  
+}
+
+.table {
+    position:fixed;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    font-size: larger;
+    -webkit-text-fill-color: rgb(253, 92, 113);
+    top:280px;
+    left: 375px;
+    width: 65%;
+    height: 280px;
+    background-color:rgb(255, 247, 241);
+    box-shadow: 0 0 20px rgb(253, 249, 249);
+    border-style: double;
+    text-shadow: 1px 1.5px rgb(78, 65, 65);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    font-size: 125%;
+  
+    
+}
+
+.title3 {
+    top:230px;
+    position:fixed;
+    background-color:rgb(255, 247, 241);
+    height:50px;
+    width: 260px;
+    margin:0;
+    left:20px;
+    padding: 0;
+    color: rgb(253, 92, 113);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    font-size: 125%;
+    box-shadow: 0 0 20px rgba(0, 0, 0.1);
+    text-shadow: 1px 1.5px rgb(78, 65, 65);
+}
+
+.title4 {
+    top:310px;
+    position:fixed;
+    background-color: rgb(255, 247, 241);
+    height:50px;
+    width: 260px;
+    margin:0;
+    left:20px;
+    padding: 0;
+    color: rgb(253, 92, 113);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    font-size: 125%;
+    box-shadow: 0 0 20px rgba(0, 0, 0.1);
+    text-shadow: 1px 1.5px rgb(78, 65, 65);
+    
+}
+
+.title5 {
+    top:390px;
+    position:fixed;
+    background-color:rgb(255, 247, 241);
+    height:50px;
+    width: 260px;
+    margin:0;
+    left:20px;
+    padding: 0;
+    color: rgb(253, 92, 113);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    font-size: larger;
+    box-shadow: 0 0 20px rgba(0, 0, 0.1);
+    text-shadow: 1px 1.5px rgb(78, 65, 65);
+}
+
+.title6 {
+    top:470px;
+    position:fixed;
+    background-color:rgb(255, 247, 241);
+    height:50px;
+    width: 260px;
+    margin:0;
+    left:20px;
+    padding: 0;
+    color:rgb(253, 92, 113);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    font-size: 125%;
+    box-shadow: 0 0 20px rgba(0, 0, 0.1);
+    text-shadow: 1px 1.5px rgb(78, 65, 65);
+   
+}
+
+.button1{
+    color:pink;
+    background-color:white;
+    border-style: outset ;
+    font-weight: 700;
+    font-size: 70%;
+    text-shadow: 1px 1px rgb(78, 65, 65);
+    height: 28px;
+    width: 70px;
+}
+.button2{
+    color:pink;
+    background-color:white;
+    border-style: outset ;
+    font-weight: 700;
+    font-size: 70%;
+    text-shadow: 1px 1px rgb(78, 65, 65);
+    height: 28px;
+    width: 70px;
+    
+    
+}
+.button3{
+    color:white;
+    background-color: rgb(253, 92, 113);
+    border-style: outset ;
+    font-weight: 700;
+    font-size: 70%;
+    text-shadow: 1px 1px rgb(78, 65, 65);
+    height: 28px;
+    width: 100px;
+    
+}

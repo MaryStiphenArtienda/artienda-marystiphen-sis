@@ -1,0 +1,67 @@
+body{
+        justify-content: center;
+        display: flex;
+        align-items: center;
+        height: 100vh;
+        width: auto;
+        margin-top: 20px;
+        background-image: url('image/sakura.jpg');
+        background-size: 1340px 620px;
+}
+
+.box {
+
+        background-color: rgb(253, 95, 121);
+        border-radius: 8px;
+        box-shadow: 20px 20px 25px rgb(56, 56, 56);
+        padding: 20px;
+        width: 800px;
+        text-align: center;
+        height: 500px;
+        border-style: ridge;
+
+}
+
+.title {
+        font-weight: 900;
+        font-size: 290%;
+        color: rgb(255, 247, 241);
+        font-style: italic;
+        text-shadow: 2px 2px black;
+
+
+
+}
+
+.label {
+        color: white;
+        font-weight: 900;
+        font-size: 110%;
+        color: rgb(255, 247, 241);
+      
+        text-shadow: 1px 1.5px black;
+}
+
+.button{
+        position:fixed;
+        left: 620px;
+        color:white;
+        background-color: rgb(247, 147, 160);
+        border-style: inset ;
+        font-weight: 800;
+        font-size: 90%;
+        text-shadow: 1px 1px rgb(78, 65, 65);
+        height: 48px;
+        width: 100px;
+       
+        
+    }
+
+    .input{
+        font-size: 18px;
+        font-weight: 800;
+        color: black;
+        border-style: inset ;
+
+
+    }
