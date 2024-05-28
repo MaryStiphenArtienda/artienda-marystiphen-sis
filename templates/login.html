@@ -14,30 +14,35 @@
     <br>
     <br>
     <center>
-
-        <form class="box">
+        
+        <form class="box" action="check-user" method="POST">
+          
+        
             <br>
             <br>
             <br>
             <div class="title"> LOG IN</div>
             <br>
-
+           
             <div class="field">
                 <label class="label">USERNAME:</label>
                 <div class="control">
-                    <input class="input" type="email" placeholder="username@gmail.come" />
+                    <input class="input"  name="username" type="text" placeholder="username@gmail.come" />
                 </div>
+                
             </div>
 
             <div class="field">
                 <label class="label">PASSWORD:</label>
                 <div class="control">
-                    <input class="input" type="password" placeholder="*********" />
+                    <input class="input" name="password"  type="password" placeholder="*********" />
                 </div>
+
             </div>
             <br>
-            <button class="button">LOG IN</button>
-        </form>
+           
+            <button class="button" type="submit">LOG IN</button>
+         </form>
     </center>
 </body>
 

@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Student Information System</title>
-    
+
     <link rel="stylesheet" href="{{url_for('static',filename='bulma/bulma.css')}}">
     <link rel="stylesheet" href="{{url_for('static',filename='css/studentinfosystem.css')}}">
 
@@ -27,87 +27,77 @@
                         </div>
                         <div class="column1">
                             <center>
-                        <aside class="menu">
-                            <p class="menu-label">
-                               <br> 
-                              </p>
-                              <div class="title2"></div><br>
-        <button class="title3">STUDENT LIST</button><br>
-        <button class="title4">COURSES</button><br>
-        <button class="title5">GRADES</button><br>
-        <button class="title6">REPORTS</button>
-                        </center>
-                            </div>
+                                <aside class="menu">
+                                    <p class="menu-label">
+                                        <br>
+                                    </p>
+                                    <div class="title2"></div><br>
+                                    <button class="title3">STUDENT LIST</button><br>
+                                    <button class="title4">COURSES</button><br>
+                                    <button class="title5">GRADES</button><br>
+                                    <button class="title6">REPORTS</button>
+                            </center>
+                        </div>
 
-                            <div class="column2">
+                        <div class="column2">
 
-                                <table class="table is-bordered">
-                                    <br><h1 class="subtitle"><space></space>STUDENT LIST</h><br>
+                            <table class="table is-bordered">
+                                <br>
+                                <h1 class="subtitle">
+                                    <space></space>STUDENT LIST</h><br>
                                     <thead>
                                         <tr>
-                                            <th><center>STUDENT ID</center></th>
-                                            <th><center>NAME</center></th>
-                                            <th><center>SEX</center></th>
-                                            <th><center>ADDRESS</center></th>
-                                            <th><center>COURSE</center></th>
+                                            <th>
+                                                <center>STUDENT ID</center>
+                                            </th>
+                                            <th>
+                                                <center>LAST_NAME</center>
+                                            </th>
+                                            <th>
+                                                <center>FIRST_NAME</center>
+                                            </th>
+                                            <th>
+                                                <center>MIDDLE_NAME</center>
+                                            </th>
+                                            <th>
+                                                <center>SEX</center>
+                                            </th>
+                                            <th>
+                                                <center>BIRTHDAY</center>
+                                            </th>
+                                            <th>
+                                                <center>ADDRESS</center>
+                                            </th>
+                                            <th>
+                                                <center>COURSE_ID</center>
+                                            </th>
+                                            <th><center>ACTION</center></th>
+                                            
                                         </tr>
                                     </thead>
                                     <tbody>
+                                        {% for student in students %}
                                         <tr>
-                                            <th></th>
-                                            <th></th>
-                                            <th></th>
-                                            <th></th>
-                                            <th></th>
-                                        </tr>
+                                            <td>{{ student[0] }}</td>
+                                            <td>{{ student[1] }}</td>
+                                            <td>{{ student[2] }}</td>
+                                            <td>{{ student[3] }}</td>
+                                            <td>{{ student[4] }}</td>
+                                            <td>{{ student[5] }}</td>
+                                            <td>{{ student[6] }}</td>
+                                            <td>{{ student[7] }}</td>
+                                           
+                                            <td><button class="button1"> EDIT </button>  <button class="button2"> DELETE </button> </td>
 
-                                        <tr>
-                                            <th></th>
-                                            <th></th>
-                                            <th></th>
-                                            <th></th>
-                                            <th></th>
                                         </tr>
-
-                                        <tr>
-                                            <th></th>
-                                            <th></th>
-                                            <th></th>
-                                            <th></th>
-                                            <th></th>
-                                        </tr>
-
-                                        <tr>
-                                            <th></th>
-                                            <th></th>
-                                            <th></th>
-                                            <th></th>
-                                            <th></th>
-                                        </tr>
-
-                                        <tr>
-                                            <th></th>
-                                            <th></th>
-                                            <th></th>
-                                            <th></th>
-                                            <th></th>
-                                        </tr>
-
-                                        <tr>
-                                            <th></th>
-                                            <th></th>
-                                            <th></th>
-                                            <th></th>
-                                            <th></th>
-                                        </tr>
-
+                                        {% endfor %}
                                     </tbody>
-                                </table>
-                            
-                            </div>
+                            </table>
+
                         </div>
                     </div>
-                </section>
+            </div>
+            </section>
         </form>
     </center>
 </body>
