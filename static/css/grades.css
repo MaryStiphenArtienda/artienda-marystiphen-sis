@@ -1,12 +1,12 @@
 .box{
     
     background-color: rgb(253, 92, 113);
-    border-radius: 8px;
     box-shadow: 0 0 20px rgba(0, 0, 0.1);
-    padding: 20px;
+    padding: 10px;
     width: 1310px;
     text-align: center;
     height:610px;
+    margin-bottom:30px;
     background-image: url('image/sakura.jpg');
     background-repeat: no-repeat;
     background-size: 1310px 610px;
@@ -180,7 +180,7 @@
     position:fixed;
     left: 1000px;
     color:white;
-    background-color: rgb(253, 92, 113);
+    background-color: rgb(236, 48, 95);
     border-style: inset ;
     font-weight: 800;
     font-size: 70%;
@@ -195,7 +195,7 @@
     position:fixed;
     left: 500px;
     color:white;
-    background-color: rgb(253, 92, 113);
+    background-color: rgb(236, 48, 95);
     border-style: inset ;
     font-weight: 800;
     font-size: 70%;
@@ -208,7 +208,7 @@
     position:fixed;
     left: 660px;
     color:white;
-    background-color: rgb(253, 92, 113);
+    background-color: rgb(236, 48, 95);
     border-style: inset ;
     font-weight: 800;
     font-size: 70%;
@@ -220,7 +220,7 @@
     position:fixed;
     left: 820px;
     color:white;
-    background-color: rgb(253, 92, 113);
+    background-color: rgb(236, 48, 95);
     border-style: inset ;
     font-weight: 800;
     font-size: 70%;
